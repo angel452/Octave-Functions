@@ -11,5 +11,5 @@ function A=romberg(f,a,b,error)
       r(i,j)=(4^(j-1)*r(i,j-1)-r(i-1,j-1))/(4^(j-1)-1);
     endfor
   endwhile
-  A=r(i,i)
+  A=r(i,i);
 endfunction

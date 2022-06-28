@@ -8,3 +8,7 @@ function p = lagrange(tx,ty)
     p = p+L*ty(k);
   endfor
 endfunction
+
+#1. Definir los puntos en tx = [1,2,3,4,5]
+#2. Definir los puntos en ty = [1,2,3,4,5]
+#3. Guardar en p = lagrange(tx,ty)

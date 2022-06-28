@@ -13,3 +13,6 @@ function A=romberg(f,a,b,error)
   endwhile
   A=r(i,i);
 endfunction
+
+#1. Define f. f=@(x) funcion
+#2. aplicamos romberg((funcion,limiteINF,limiteSUP,error)

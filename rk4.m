@@ -10,3 +10,9 @@ function ty=rk4(f,tx,y0)
     ty(k)=ty(k-1)+(F1+2*F2+2*F3+F4)/6;
   endfor
 endfunction
+
+#1. Definir tx=[0:0.1:5]
+#2. Definir funcion en linea f. f = @(x,y) funcion
+#3. Llamar a RK4. ty = rk4(f,tx,pntoInicial)
+#4. Hacer el sol. sol=@(x) interp1(tx,ty,x,'spline')
+#5. Usamos sol para nuestras operaciones
